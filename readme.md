@@ -7,7 +7,11 @@
 		<p>
 		Page 278 :<br />
 		Dans le tableau des "Valeurs binaires négatives"<br />
+<<<<<<< HEAD
 		Dans l'exemple, ils expliquent que si la variable est de type <code>signed</code> et que le bit le plus à gauche est armé <i>(le bit possède la valeur 1)</i> alors la valeur sera négative. Or leur exemple est incorrect.
+=======
+		Dans l'exemple, ils expliquent que si la variable est de type <code>signed</code> et que le bit qui est le plus à gauche est armé <i>(le bit possède la valeur 1)</i> alors la valeur sera négatif. Or leur exemple est incorrect.
+>>>>>>> parent of 39f53d3 (:sparkle: Correction readme.md)
 		</p>
 		<p>
 		Exemple qu'ils donnent :
