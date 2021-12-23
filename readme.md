@@ -7,10 +7,10 @@
 		<p>
 		Page 278:<br />
 		Dans le tableau des "Valeurs binaires négatives"<br />
-		Dans l'exemple ils expliquent que si la variable est de type <code>signed</code>, alors le bit le plus à gauche si il est armé (le bit possède la valeur 1) alors la valeur sera négatif. Or leur exemple est incorrect.
+		Dans l'exemple, ils expliquent que si la variable est de type <code>signed</code> et que le bit qui est le plus à gauche est armé <i>(le bit possède la valeur 1)</i> alors la valeur sera négatif. Or leur exemple est incorrect.
 		</p>
 		<p>
-		Exemple qu'il donne :
+		Exemple qu'ils donnent :
 		<ol>
 			1. <code>1 0 0 0 0 0 0 0</code> = <code>-128</code><br />
 			2. <code>1 0 0 0 0 0 0 1</code> = <code>-129</code><br />
