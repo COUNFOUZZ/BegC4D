@@ -22,7 +22,7 @@ int main()
     
     for (x=0; x<7; x++)
     {
-        while (putchar(*(*(fruits+x))++));
+        while(putchar(*(*(fruits+x))++));
         putchar('\n');
     }
     return 0;
