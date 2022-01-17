@@ -2,7 +2,7 @@
 //  main.c
 //  ex2006
 //
-//  Created by Alexis Abda on 16/01/2022.
+//  Created by Alexis Abda on 17/01/2022.
 //
 
 #include <stdio.h>
