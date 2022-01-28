@@ -24,10 +24,10 @@ int main()
     for(x=0;x<5;x++)
     {
         printf("Score #%d : ", x+1);
-        scanf("%d", scoremax);
+        scanf("%d", &scoremax[x]);
     }
 
-    fwrite(&scoremax, sizeof(int), 5, handle);
+    fwrite(scoremax, sizeof(int), 5, handle);
     fclose(handle);
     puts("Le score à été enregistré.");
 
