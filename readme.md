@@ -1,6 +1,4 @@
 # BegC4D
-## TO-DO
-1. Corriger l'exercice "ex2306".
 
 ## Erreur dans le livre:
 
