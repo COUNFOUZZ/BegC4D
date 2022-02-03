@@ -20,12 +20,12 @@ int main()
 
     if(dossier == NULL)
     {
-        mkdir(dir_name, 755);
+        mkdir(dir_name, 0755);
         puts("Dossier fait.");
     }
     getcwd(dosscour, 255);
     printf("Dossier courant : %s\n", dosscour);
-    mkdir(dir_name, 755);
+    mkdir(dir_name, 0755);
     if(chdir(dir_name) == 0)
         getcwd(dosscour, 255);
     else

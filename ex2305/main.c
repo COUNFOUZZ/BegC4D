@@ -15,7 +15,7 @@ int main()
 
     getcwd(dosscour, 255);
     printf("Dossier courant : %s\n", dosscour);
-    mkdir("ultra_tempo", 755);
+    mkdir("ultra_tempo", 0755);
     puts("Dossier fait.");
     chdir("ultra_tempo");
     getcwd(dosscour, 255);
